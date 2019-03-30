@@ -120,6 +120,14 @@ export default {
   margin-right: 10px;
   margin-bottom: 10px;
 }
+@media (max-width: 768px) {
+  .panelContainer {
+    justify-content: center;
+  }
+  .panel {
+    min-width: 300px;
+  }
+}
 .title {
   text-align: left;
   font-size: 20px;
